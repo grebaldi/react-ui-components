@@ -115,7 +115,7 @@ export default class IconButtonDropDown extends Component {
                     aria-haspopup="true"
                     className={theme.wrapper__btn}
                     isDisabled={isDisabled}
-                    onMouseDown={this.handleHoldTimeout}
+                    onMouseEnter={this.handleHoldTimeout}
                     onClick={this.handleClick}
                     >
                     <IconComponent icon={modeIcon} className={theme.wrapper__btnModeIcon}/>
